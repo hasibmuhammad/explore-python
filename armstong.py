@@ -8,9 +8,6 @@ def isArmstrong(num):
         sum += r**l
         num = num // 10
 
-    if sum == s:
-        return True
-    else:
-        return False
+    return sum == s
 
 print(isArmstrong(153))
